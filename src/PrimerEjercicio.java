@@ -1,7 +1,10 @@
 import java.util.Scanner;
 
-public class Numeros {
+public class PrimerEjercicio {
     public static void main(String[] args) {
+
+        System.out.println("Hello world!");
+
         Scanner entrada = new Scanner(System.in);
         int a,b,c;
         System.out.println("Ingrese tres numeros:");
@@ -37,7 +40,14 @@ public class Numeros {
                 }
             }
         }
-
-
     }
 }
+
+
+
+
+
+
+
+
+
