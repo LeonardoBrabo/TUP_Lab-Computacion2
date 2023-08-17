@@ -11,16 +11,17 @@ Escribe un programa que calcule la sumatoria de los números enteros desde 1 has
 public class Sumatoria {
 
     public static int sumarecursiva(int numero){
-        if(numero == 1){
-            return 1;
-        }else
-            return numero + sumarecursiva(numero - 1);
+        //utilizamos operador ternario.
+        int valor;
+        return  valor = (numero == 1) ? 1 : numero + sumarecursiva(numero -1);
     }
 
     public static void main(String[] args) {
         Scanner enter = new Scanner(System.in);
+
         System.out.println("Ingrese un numero este se sumara con todos sus anteriores:");
         int n = enter.nextInt();
+
         System.out.println("La suma es: "+sumarecursiva(n));
     }
 }

@@ -22,7 +22,8 @@ public class DivisionRecursivaIterativa {
         }
 
         //método division iterativa
-        public static int division(int dividendo, int divisor,int cociente) { //el parametro cociente es para inicializarlo.
+        public static int division(int dividendo, int divisor,int cociente) {
+            //el parámetro "cociente" lo usamos para la sobrecarga de métodos y es donde se acumulará el resultado del cociente.
 
             while (dividendo >= divisor) {
                 dividendo -= divisor;
@@ -35,15 +36,18 @@ public class DivisionRecursivaIterativa {
         public static void main(String[] args) {
             int divisor;
             int dividendo;
+
             System.out.print("Ingrese valor del dividendo: ");
             dividendo = entrada.nextInt();
-            do {
+            do { //controlamos que no se ingrese cero como divisor.
+
                 System.out.println("Ingrese valor del divisor");
                 divisor = entrada.nextInt();
+
             }while(divisor <= 0);
 
             System.out.println("División recursiva: " + division(dividendo, divisor));
-            System.out.println("División iterativa: " + division(dividendo, divisor,0));
+            System.out.println("División iterativa: " + division(dividendo, divisor,0)); //incializamos el cociente en cero.
         }
     }
 
