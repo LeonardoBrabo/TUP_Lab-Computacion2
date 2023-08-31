@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="939af243-67e6-44ba-bc5b-d1e9f2d8fc9d" name="Changes" comment="">
+    <list default="true" id="939af243-67e6-44ba-bc5b-d1e9f2d8fc9d" name="Changes" comment="Clase factoriales terminada; mejoras en clase&#10;sumatoria.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/DivisionRecursivaIterativa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/DivisionRecursivaIterativa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Factoriales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Factoriales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Sumatoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Sumatoria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +30,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Mis Cosas Estudio/Documents/GitHub/TUP/TUP_Lab-Computacion2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Mis Cosas Estudio/Documents/GitHub/TUP/TUP_Lab-Computacion2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Sumatoria">
+}</component>
+  <component name="RunManager" selected="Application.GestorEmpleados">
     <configuration name="DivisionRecursivaIterativa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.DivisionRecursivaIterativa" />
       <module name="TUP_Lab-Computacion2" />
@@ -62,6 +59,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GestorEmpleados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GestionEmpleados.GestorEmpleados" />
+      <module name="TUP_Lab-Computacion2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GestionEmpleados.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GestorEmpleados" />
         <item itemvalue="Application.Sumatoria" />
         <item itemvalue="Application.Factoriales" />
         <item itemvalue="Application.DivisionRecursivaIterativa" />
@@ -107,6 +118,14 @@
       <option name="presentableId" value="Default" />
       <updated>1692213272784</updated>
     </task>
+    <task id="LOCAL-00001" summary="Clase factoriales terminada; mejoras en clase&#10;sumatoria.">
+      <created>1692306573723</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692306573723</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,5 +138,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Clase factoriales terminada; mejoras en clase&#10;sumatoria." />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase factoriales terminada; mejoras en clase&#10;sumatoria." />
   </component>
 </project>
