@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="939af243-67e6-44ba-bc5b-d1e9f2d8fc9d" name="Changes" comment="Clase factoriales terminada; mejoras en clase&#10;sumatoria.">
-      <change afterPath="$PROJECT_DIR$/src/EjerciciosPrueba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExamenParcial1/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,23 +38,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "F:/Archivos/2.Lab-Computacion-II/Repos/TUP_Lab-Computacion2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GestorEmpleados">
-    <configuration name="DivisionRecursivaIterativa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.DivisionRecursivaIterativa" />
-      <module name="TUP_Lab-Computacion2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Factoriales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Recursion.Factoriales" />
       <module name="TUP_Lab-Computacion2" />
@@ -79,9 +71,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimerEjercicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrimerEjercicio" />
+    <configuration name="Hotel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ModeloParcial.Hotel" />
       <module name="TUP_Lab-Computacion2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ModeloParcial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExamenParcial1.Main" />
+      <module name="TUP_Lab-Computacion2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExamenParcial1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Hotel" />
         <item itemvalue="Application.GestorEmpleados" />
         <item itemvalue="Application.Sumatoria" />
         <item itemvalue="Application.Factoriales" />
-        <item itemvalue="Application.DivisionRecursivaIterativa" />
-        <item itemvalue="Application.PrimerEjercicio" />
       </list>
     </recent_temporary>
   </component>
@@ -142,5 +153,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Clase factoriales terminada; mejoras en clase&#10;sumatoria." />
     <option name="LAST_COMMIT_MESSAGE" value="Clase factoriales terminada; mejoras en clase&#10;sumatoria." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
